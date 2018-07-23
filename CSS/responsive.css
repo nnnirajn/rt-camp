@@ -1,0 +1,192 @@
+/* media queries for responsive Website */
+
+@media only screen and (max-width:450px) {   /* responsive css for mobile view*/
+  .main-logo img {
+    width: 120px;
+    margin: 0 auto;
+  }
+  .search-box {
+    margin-top: -60px;
+  }
+  .upper-bar .row {
+    width: 90%;
+  }
+  .cse .gsc-control-cse,
+  .gsc-control-cse {
+    width: 220px !important;
+    height: 50px !important;
+  }
+  #menu {
+    display: none;
+  }
+  .slicknav_menu {
+    display: block;
+    background: #888686 !important;
+    text-transform: uppercase;
+    width: 100%;
+  }
+  nav {
+    display: none !important;
+  }
+  .slicknav_nav {
+    text-align: center;
+  }
+  .slicknav_nav a:hover {
+    background-color: #c8a551 !important;
+    color: #fff;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+  }
+  .slicknav_nav a {
+    padding: 8px 10px;
+    margin: 2px 5px;
+    font-size: 15px;
+  }
+  .acti {
+    background-color: #c8a551;
+    color: #fff !important;
+  }
+  .left-side {
+    width: 100%;
+  }
+  .right-side {
+    width: 100%;
+  }
+  .right-side p {
+    font-size: 13px;
+    line-height: 26px;
+  }
+  .item img {
+    width: 100%;
+  }
+  .owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    margin: 5px 5px;
+  }
+  .owl-theme .owl-nav.disabled+.owl-dots {
+    position: absolute;
+    bottom: 8px;
+    right: 20px;
+  }
+  .right-side {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .first-slider {
+    width: 65%;
+    margin: 0px auto;
+    box-shadow: 12px 0 25px -4px rgba(0, 0, 0, 0.5), -12px 0 25px -4px rgba(0, 0, 0, 0.5);
+  }
+  .item1 img {
+    width: 100%;
+  }
+  .prev1 {
+    position: absolute;
+    left: 15px;
+    top: 30%;
+    cursor: pointer;
+  }
+  .prev1 img,
+  .next1 img {
+    width: 25px;
+  }
+  .next1 {
+    position: absolute;
+    right: 15px;
+    top: 30%;
+    cursor: pointer;
+  }
+  .exhibition {
+    width: 100%;
+    text-align: center;
+    border-right: none;
+  }
+  .news {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .news-body h4 {
+    font-size: 11px;
+    word-spacing: 2px;
+    padding: 15px 0px 5px 0px;
+  }
+  .news-body p {
+    font-size: 8px;
+  }
+  .first-row img,
+  .second-row img {
+    margin: 10px 0px 7px 10px;
+  }
+  .twitter {
+    width: 100%;
+  }
+  .facebook {
+    width: 100%;
+    border-right: none;
+  }
+  .weather {
+    width: 100%;
+  }
+  .twitter-body {
+    padding: 10px 4px 10px 4px;
+  }
+  .facebook-body {
+    padding: 20px 4px 10px 0px;
+    margin-right: -20px;
+  }
+  .third-slider {
+    width: 60%;
+    margin: 0px auto;
+  }
+  .prev3 {
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    cursor: pointer;
+  }
+  .prev3 img,
+  .next3 img {
+    width: 25px;
+  }
+  .next3 {
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    cursor: pointer;
+  }
+  .item3 img {
+    width: 100px !important;
+    padding: 10px !important;
+    margin: 0px 0px 0px 55px;
+  }
+  .pages {
+    width: 100%;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .important-links {
+    width: 100%;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .footer-logo {
+    width: 100%;
+    text-align: center;
+  }
+  .facebook-body iframe {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width:400px) {
+  .facebook-body iframe {
+    width: 250px;
+  }
+}
+
+
+/*End  -By Niraj Narkhede*/

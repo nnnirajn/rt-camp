@@ -1,0 +1,608 @@
+@font-face {                  /*adding external font*/
+  font-family: 'droid-serif.regular';
+  src: local('droid-serif.regular.ttf'), url('droid-serif.regular.ttf') format('opentype');
+}
+/********************************************basic css**************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+/*slicknav*/
+
+.slicknav_menu {
+  display: none;
+}
+
+/*slicknav*/
+
+/***************************************basic css End************************************/
+
+/***************************************Header Start*************************************/
+
+/***************************************Upper Bar Start************************************/
+
+.upper-bar {
+  background-color: #eeeaeb;
+  width: 100%;
+  height: 120px;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  height: 120px;
+  float: left;
+}
+
+.right-navbar {
+  float: right;
+  margin-top: 15px;
+}
+
+.right-navbar ul li {
+  display: inline;
+}
+
+.right-navbar ul li a:link,
+.right-navbar ul li a:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.search-box {
+  float: right;
+  margin-top: -60px;
+}
+
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  background-color: #eeeaeb !important;
+  border: 1px solid transparent !important;
+  padding-right: 0px !important;
+}
+
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  width: 300px !important;
+  height: 50px !important;
+}
+
+/**************************************Upper Bar End***************************************/
+
+/**************************************main navbar start***********************************/
+
+nav {
+  background-color: #e6c36e;
+}
+
+nav ul li {
+  display: inline;
+  width: 100%;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 14px;
+  color: #000;
+  padding: 12px 20px;
+  transition: all 0.5s ease-in;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+  background-color: #c8a551;
+  color: #fff;
+}
+
+.acti {
+  background-color: #c8a551;
+  color: #fff !important;
+}
+
+/**************************************main navbar end*************************************/
+
+/**************************************haeder End******************************************/
+
+/**************************************carousel and welcome section start******************/
+
+.c-and-w {
+  background-color: #eeeaeb;
+  border-bottom: 5px solid #dcd7d3;
+}
+
+.left-side {
+  width: 70%;
+  float: left;
+}
+
+.right-side {
+  width: 30%;
+  float: right;
+  padding-left: 20px;
+}
+
+.right-side img {
+  float: left;
+  padding: 0px 15px 5px 0px;
+}
+
+.right-side h3 {
+  font-family: 'droid-serif.regular';
+  font-size: 20px;
+  margin: 20px 0px;
+  color: #b9a071;
+}
+
+.right-side p {
+  color: #000;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.right-side a {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 20px 0px;
+  font-size: 18px;
+  color: #b9a071;
+}
+
+.car-wrapper {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 10px;
+  display: inline-block !important;
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px;
+  height: 20px;
+  margin: 5px 7px;
+  background: #86705e;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+  border: 2px solid #d5b46b;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #86705e;
+  border: 2px solid #fff;
+}
+
+/**************************************carousel and welcome section End********************/
+
+/**************************************slider Start****************************************/
+
+.first-slider {
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 12px 0 25px -4px rgba(0, 0, 0, 0.5), -12px 0 25px -4px rgba(0, 0, 0, 0.5);
+}
+
+.slider-one {
+  position: relative;
+}
+
+.prev1 {
+  position: absolute;
+  left: 15px;
+  top: 20%;
+  cursor: pointer;
+}
+
+.prev1 img,
+.next1 img {
+  width: 30px;
+}
+
+.next1 {
+  position: absolute;
+  right: 15px;
+  top: 20%;
+  cursor: pointer;
+}
+
+.brown1 img {
+  border: 5px solid #9a844a;
+  cursor: pointer;
+}
+
+.light1 {
+  border: 5px solid #d5ccb4;
+  cursor: pointer;
+}
+
+/***************************************Slider End*****************************************/
+
+/***************************************exhibition and news start**************************/
+
+.exhibition {
+  width: 70%;
+  float: left;
+  border-right: 1px solid #d1bb7fa8;
+  padding-right: 10px;
+}
+
+.news {
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+}
+
+.exhibition-heading h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+}
+
+.first-row,
+.second-row {
+  width: 100%;
+}
+
+.first-row img,
+.second-row img {
+  border: 5px solid #d5ccb4;
+}
+
+.first-row div p a,
+.second-row div p a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.news-heading h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+}
+
+.news-logo {
+  float: left;
+  padding: 15px;
+}
+
+.news-body h4 {
+  font-size: 15px;
+  word-spacing: 3px;
+  padding: 15px 0px 5px 0px;
+}
+
+.news-body p {
+  font-size: 12px;
+}
+
+.news-links ul li a:link,
+.news-links ul li a:visited {
+  font-size: 15px;
+  text-decoration: none;
+  color: blue;
+  line-height: 30px;
+}
+
+.news-links ul li i {
+  font-size: 11px;
+  padding: 2px;
+}
+
+.news-arrow {
+  margin: 10px;
+  float: left;
+}
+
+.more-news {
+  float: right;
+  margin: 10px 5px;
+  font-size: 14px;
+}
+
+.more-news a:link,
+.more-news a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+/***************************************exhibition and news Ends***************************/
+
+/***************************************social integration start***************************/
+
+.social-integration {
+  width: 100%;
+}
+
+.twitter {
+  width: 30%;
+  float: left;
+}
+
+.facebook {
+  width: 40%;
+  float: left;
+  padding-left: 10px;
+  border-right: 1px solid #d1bb7fa8;
+  padding-right: 10px;
+}
+
+.weather {
+  width: 30%;
+  float: right;
+  padding-left: 10px;
+}
+
+.twitter h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+}
+
+.facebook-heading h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+}
+
+.weather-heading h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+  margin-top: 30px;
+}
+
+.twitter-body {
+  padding: 10px;
+  width: 100%;
+}
+
+.facebook-body {
+  padding: 10px 10px 0px 30px;
+  width: 100%;
+}
+
+.weather-body {
+  background: url('../images/weather-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.weatherwidget-io {
+  height: 200px !important;
+}
+
+.clock-heading h3 {
+  background-color: #f4eede;
+  border-left: 7px solid #e6c36e;
+  padding: 5px 0px 5px 12px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'droid-serif.regular';
+}
+
+#day,
+#date,
+#month {
+  display: inline-block;
+  font-size: 16px;
+}
+
+#timezone {
+  padding: 15px 0px 15px 15px;
+}
+
+#Pune_z424 {
+  font-size: 45px;
+  padding: 10px;
+}
+
+/***************************************social integration End*****************************/
+
+/***************************************second slider start********************************/
+
+.third-slider {
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 12px 0 25px -4px rgba(0, 0, 0, 0.5), -12px 0 25px -4px rgba(0, 0, 0, 0.5);
+}
+
+.slider-three {
+  position: relative;
+}
+
+.prev3 {
+  position: absolute;
+  left: 25px;
+  top: 45%;
+  cursor: pointer;
+}
+
+.prev3 img,
+.next3 img {
+  width: 30px;
+}
+
+.next3 {
+  position: absolute;
+  right: 25px;
+  top: 45%;
+  cursor: pointer;
+}
+
+.item3 img {
+  width: 100px !important;
+  padding: 10px !important;
+}
+
+/****************************************second slider End*********************************/
+
+/****************************************footer start**************************************/
+
+.main-footer {
+  background-color: #e6c36e;
+}
+
+.pages {
+  width: 33.33%;
+  float: left;
+}
+
+.important-links {
+  width: 33.33%;
+  float: left;
+}
+
+.footer-logo {
+  width: 33.33%;
+  float: right;
+}
+
+.footer-line {
+  background-color: #000;
+  margin: 0px 10px;
+}
+
+.pages h4 {
+  padding: 12px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'droid-serif.regular';
+}
+
+.pages ul li a:link,
+.pages ul li a:visited {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.pages ul li i {
+  font-size: 11px;
+  padding: 5px 10px;
+  color: #000;
+}
+
+.important-links h4 {
+  padding: 12px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'droid-serif.regular';
+}
+
+.important-links ul li a:link,
+.important-links ul li a:visited {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.important-links ul li i {
+  font-size: 11px;
+  padding: 5px 10px;
+  color: #000;
+}
+
+.footer-logo {
+  padding: 25px;
+  text-align: center;
+}
+
+.footer-logo p {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.footer-logo ul {
+  margin-top: 1px;
+}
+
+.footer-logo ul li {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.sub-footer {
+  background-color: #947f4b;
+  color: #f3e3bd;
+  font-size: 13px;
+  padding: 8px 2px;
+}
+
+.sub-footer p {
+  line-height: 18px;
+}
+
+.sub-footer p span {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/****************************************footer End****************************************/
+
+
+/*End   -By Niraj Narkhede*/
